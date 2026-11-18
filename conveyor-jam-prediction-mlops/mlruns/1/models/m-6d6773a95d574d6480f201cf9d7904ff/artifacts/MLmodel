@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/talas/Downloads/conveyor-jam-prediction-mlops/conveyor-jam-prediction-mlops/mlruns/1/models/m-6d6773a95d574d6480f201cf9d7904ff/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.18.0
+model_id: m-6d6773a95d574d6480f201cf9d7904ff
+model_size_bytes: 28629
+model_uuid: m-6d6773a95d574d6480f201cf9d7904ff
+prompts: null
+run_id: 9208dee1998149529586523c70364fc4
+utc_time_created: '2026-11-18 09:40:43.272831'
